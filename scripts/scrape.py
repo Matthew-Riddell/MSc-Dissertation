@@ -10,6 +10,13 @@ import asyncio
 from playwright.async_api import async_playwright
 import pandas as pd
 
+# Petitions:
+# https://citizens-initiative.europa.eu/initiatives/details/2024/000001_en Ban on conversion practices in the European Union
+# https://citizens-initiative.europa.eu/initiatives/details/2024/000002_en European Citizens' Initiative in Defence of Agriculture and Rural Economy in Europe
+# https://citizens-initiative.europa.eu/initiatives/details/2024/000004_en My Voice, My Choice: For Safe And Accessible Abortion
+# https://citizens-initiative.europa.eu/initiatives/details/2024/000006_en Air-Quotas
+# https://citizens-initiative.europa.eu/initiatives/details/2024/000007_en Stop Destroying Videogames
+
 # https://medium.com/@hasdata/how-to-scrape-websites-with-playwright-and-python-49a015fd00aa
 
 async def scrape_table():
@@ -38,14 +45,18 @@ async def scrape_table():
     
     # --- Process the data ---
     
-    headers = data[0]  # Headers 
-    table_data = data[1:-1]  # all rows except header and last row (total)
-    
-    # Last row is the total
-    total_row = data[-1]
+    headers = data[0]
+
+    table_data = []
     total_signatories = None
-    if total_row[0].lower().startswith("total"): # Row for total signatures
-        total_signatories = total_row[1] 
+
+    for row in data[1:]:
+        if row[0].lower().startswith("total"):
+            total_signatories = row[1]
+            table_data.append(row)  # include total row
+            break
+        else:
+            table_data.append(row) 
     
     # Dataframe
     df = pd.DataFrame(table_data, columns=headers)
