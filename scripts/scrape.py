@@ -16,6 +16,8 @@ import pandas as pd
 # https://citizens-initiative.europa.eu/initiatives/details/2024/000004_en My Voice, My Choice: For Safe And Accessible Abortion
 # https://citizens-initiative.europa.eu/initiatives/details/2024/000006_en Air-Quotas
 # https://citizens-initiative.europa.eu/initiatives/details/2024/000007_en Stop Destroying Videogames
+# https://citizens-initiative.europa.eu/initiatives/details/2024/000008_en Stop Cruelty Stop Slaughter
+# https://citizens-initiative.europa.eu/initiatives/details/2024/000009_en STOP FAKE FOOD: ORIGIN ON LABEL
 
 # https://medium.com/@hasdata/how-to-scrape-websites-with-playwright-and-python-49a015fd00aa
 
@@ -26,7 +28,7 @@ async def scrape_table():
         page = await browser.new_page()
         
         # Open the page
-        await page.goto("https://citizens-initiative.europa.eu/initiatives/details/2024/000007_en")
+        await page.goto("https://citizens-initiative.europa.eu/initiatives/details/2024/000009_en")
         
         # Wait for table to load
         await page.wait_for_selector("table")
