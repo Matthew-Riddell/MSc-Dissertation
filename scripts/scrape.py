@@ -6,6 +6,19 @@
 
 # To run: "py scrape.py" in cmd
 
+# For this part of the project, I need to scrape ECI petitions from the European Citizens Initiative website
+# This file uses playwright to open a chromium session and extract the table manually 1 page at a time
+# For this I place the link to the petition page and then run the file which then opens the session and waits for the table to load
+# then it extracts the table and puts it into a dataframe and then writes it to a new csv file
+# I repeat this process for each petition 
+
+
+# Mahara Portfolio:
+# https://mahara.dkit.ie/view/view.php?t=f816cb6da6dd833aaa2f
+
+# Github Repository:
+# https://github.com/Matthew-Riddell/MSc-Dissertation
+
 import asyncio
 from playwright.async_api import async_playwright
 import pandas as pd
@@ -19,6 +32,7 @@ import pandas as pd
 # https://citizens-initiative.europa.eu/initiatives/details/2024/000008_en Stop Cruelty Stop Slaughter
 # https://citizens-initiative.europa.eu/initiatives/details/2024/000009_en STOP FAKE FOOD: ORIGIN ON LABEL
 
+# Code adapted from here:
 # https://medium.com/@hasdata/how-to-scrape-websites-with-playwright-and-python-49a015fd00aa
 
 async def scrape_table():
