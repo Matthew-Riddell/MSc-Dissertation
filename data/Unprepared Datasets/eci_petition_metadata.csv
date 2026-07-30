@@ -1,0 +1,28 @@
+Petition_ID,Petition_Number,Year,Petition_Name,Genre,Total_Signatures,Successful
+eci_table_01,1,2024,Ban Conversion Practices,Human Rights,1128063,True
+eci_table_02,2,2024,Defence of Agriculture,Agriculture,4432,False
+eci_table_03,3,2024,My Voice My Choice,Health,1124513,True
+eci_table_04,4,2024,Air-Quotas,Environment,7278,False
+eci_table_05,5,2024,Stop Destroying Videogames,Digital Rights,1294188,True
+eci_table_06,6,2024,Stop Cruelty Stop Slaughter,Animal Welfare,590368,False
+eci_table_07,7,2024,STOP FAKE FOOD: ORIGIN ON LABEL,Agriculture,868587,False
+eci_table_08,8,2024,Water-Smart and Resilient Europe,Environment,4442,False
+eci_table_09,9,2024,PsychedeliCare,Health,74016,False
+eci_table_10,10,2023,Stop torture and inhuman treatment at Europe’s borders,Human Rights,25124,False
+eci_table_11,11,2023,Ensuring a dignified reception of migrants in Europe,Migration,15364,False
+eci_table_12,12,2023,End The Horse Slaughter Age,Animal Welfare,15154,False
+eci_table_13,13,2023,Connecting European capitals via high-speed train network,Transport,40682,False
+eci_table_14,14,2023,Implementation of the concept of judicial precedent,Governance,291,False
+eci_table_15,15,2023,Taxing wealth to finance ecological social transition,Economy,357155,False
+eci_table_16,16,2023,Development of Ukrainian culture,Culture,1095,False
+eci_table_17,17,2023,EU Live Bus Stop Info,Technology,3746,False
+eci_table_18,18,2023,Trust and Freedom,Governance,22471,False
+eci_table_19,19,2023,Creation of a European Environment Authority,Environment,14764,False
+eci_table_20,20,2022,Win It On The Pitch,Sport,3594,False
+eci_table_21,21,2022,Fur Free Europe,Animal Welfare,1502319,True
+eci_table_22,22,2022,End The Slaughter Age,Animal Welfare,867946,False
+eci_table_23,23,2022,"Good Clothes, Fair Pay",Employment,216100,False
+eci_table_24,24,2022,"Protect EU Rural Heritage, Food Security and Supply",Agriculture,21410,False
+eci_table_25,25,2022,Focus on Specific Learning Disabilities,Education,1327,False
+eci_table_26,26,2022,VEGAN MEAL,Food,8003,False
+eci_table_27,27,2022,European Day of Whatever it Takes,Politics,254,False
