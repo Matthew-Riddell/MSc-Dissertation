@@ -1,0 +1,7 @@
+Week 2:  
+Date: [01/08/2026]  
+ 
+Progress Update: [For this week I completed this iteration of Data Preparation. I created a new Petition level dataset that has petition level variables such as "Petition Genre", "Total Signatures Collected", "Year", "Successful (Boolean)". I then researched and found two new datasets, one is a Media Literacy Index and the other is a Prosperity and Development Dataset. I then conducted inital analysis on each dataset and data cleaning, for example I ensured that country names where standardised across all datasets, I then ensured the datasets were numerical and renamed the columns and reselected each individual dataset with only the required columns. I checked for missing values and duplicate values and then merged all datasets into a combined master dataset that incorporates all the variables that I will need for future analysis, modelling and feature engineering.]  
+Next Steps: [For next week I plan on conducting a new iteration of Exploratory Data Analysis with the new variables and combined master dataset, I then with to do assumption checking and modelling which will then prepare me for the most important stages in the week after that.]  
+
+Matthew Riddell
