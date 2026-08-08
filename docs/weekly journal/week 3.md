@@ -1,0 +1,7 @@
+Week 3:  
+Date: [08/08/2026]  
+ 
+Progress Update: [During this week I completed EDA for the expanded master dataset, a lot of the new country level variables are highly colinear which makes them perfect for use in Principal Component Analysis. Later a Principal Component Analysis was conducted with the country level variables of the master dataset. VIF test should high multicolinearity but Bartlett and KMO test revealed that variables were sufficent enough for the PCA. Scree Plot and Loadings were analysed in order to decide which components would be kept. I selected the first 4 components in order to reach 80% explained variance. After PCA, I conducted a PCA Multi-Linear Regression to see how well the components would perform in explaining variance in Signatures Per Capita. This linear regression produced an R-Squared value of 0.009 meaning it only explained 0.9% of the variance. This result further reinforces the results I obtained during the Interim report. If I have enough time I might do further LInear Regressions that combine the strongest PCA components with some of the stronger variables from the Master dataset. In the meantime I must continue with the other models.]  
+Next Steps: [Complete for next week: Continue with model development, Regressions, Random Forest and Cluster Analysis, Conduct a final comparison between each model.]  
+
+Matthew Riddell
